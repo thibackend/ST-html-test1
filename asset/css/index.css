@@ -49,7 +49,7 @@
 }
 
 
-.nav-title-home a {
+.nav-title-header-home a {
     color: #7557FF;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
@@ -59,7 +59,7 @@
     text-decoration: none;
 }
 
-.nav-title a {
+.nav-title-header a {
     color: #263238;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
@@ -127,11 +127,9 @@ button {
     font-size: 70px;
     font-style: normal;
     font-weight: 600;
-    width: 470px;
     line-height: 70px;
     margin: 0px;
     margin-top: 123px;
-    /* padding: 48px 0px 41px; */
 }
 
 .banner-left .sub-title {
@@ -141,7 +139,6 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 470px;
     margin-top: 18px;
 }
 
@@ -197,8 +194,6 @@ button {
     line-height: 28px;
     padding: 0px;
     padding-top: 16px;
-    width: 470px;
-
 }
 
 .sevices {
@@ -270,6 +265,63 @@ button {
     text-align: center;
 }
 
+/* Responsive_Header */
+@media (max-width: 768px) {
+  .main-container{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    max-width: 400px;
+  }
+  .session1{
+    width: 100%;
+
+  }
+  .header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-header{
+    padding: 15px 15px ;
+  }
+  .nav-lists{
+    gap: 10px;
+  }
+  .banner{
+    display:flex;
+    flex-direction: column;
+  }
+  .banner-left{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-left .title {
+    font-size: 50px;
+  }
+  .banner-right{
+    margin: 0px;
+  }
+  .banner-img img{
+    width: 400px;
+  }
+  .sevices-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-left .title {
+    margin-top: 50px;
+  }
+  .banner-rectangle .get-started {
+    margin-bottom: 50px;
+  }
+
+}
 /* ___ End  ___ Header Service ______ Nai _________ */
 
 
