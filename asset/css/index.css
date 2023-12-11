@@ -244,3 +244,25 @@ button{
   color: #605D6C;
   text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  .main-container{
+    width: 768px;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    max-width: 768px;
+  }
+  .session1{
+    width: 100%;
+
+  }
+  .header{
+    width: 100%;
+  }
+  .logo-header{
+    padding: 0;
+  }
+}
