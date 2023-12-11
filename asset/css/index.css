@@ -1,13 +1,14 @@
-
 /* ___ begin  ___ Header Service ______ Nai _________ */
-*{
+* {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     line-height: normal;
 }
+
 .main-container {
     background-color: #f7feff;
 }
+
 .session1 {
     background-color: #fffbef;
 }
@@ -28,7 +29,7 @@
 
 .logo-header {
     color: #121116;
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: 700;
     line-height: 34px;
     padding: 32px 0 0 144px;
@@ -190,7 +191,7 @@ button {
     height: 700px;
     margin-left: auto;
     margin-right: auto;
-   
+
 }
 
 .sevices-cards {
@@ -254,76 +255,93 @@ button {
     color: #605D6C;
     text-align: center;
 }
+
 /* Responsive_Header */
 @media (max-width: 768px) {
-  .main-container{
-    width: 400px;
-    margin: 0;
-    padding: 0;
-  }
-  .container{
-    max-width: 400px;
-  }
-  .session1{
-    width: 100%;
+    .main-container {
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
 
-  }
-  .header{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .logo-header{
-    padding: 15px 15px ;
-  }
-  .nav-lists{
-    gap: 10px;
-  }
-  .banner{
-    display:flex;
-    flex-direction: column;
-  }
-  .banner-left{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .banner-left .title {
-    font-size: 50px;
-  }
-  .banner-right{
-    margin: 0px;
-  }
-  .banner-img img{
-    width: 400px;
-  }
-  .sevices-cards{
-    display: flex;
-    flex-direction: column;
-  }
-  .banner-left .title {
-    margin-top: 50px;
-  }
-  .banner-rectangle .get-started {
-    margin-bottom: 50px;
-  }
+    .container {
+        max-width: 400px;
+    }
+
+    .session1 {
+        width: 100%;
+
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-header {
+        padding: 15px 15px;
+    }
+
+    .nav-lists {
+        gap: 10px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-left {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-left .title {
+        font-size: 50px;
+    }
+
+    .banner-right {
+        margin: 0px;
+    }
+
+    .banner-img img {
+        width: 400px;
+    }
+
+    .sevices-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-left .title {
+        margin-top: 50px;
+    }
+
+    .banner-rectangle .get-started {
+        margin-bottom: 50px;
+    }
 
 }
+
 /* ___ End  ___ Header Service ______ Nai _________ */
 
 
 /* __ Begin ___ Xuân_________BODY_________________________ */
 
-.session2{
+.session2 {
     margin-top: 130px;
     margin-bottom: 180px;
 }
-.take-care{
+
+.take-care {
     display: flex;
     margin-left: 135px;
 }
+
 .section-three-information-left {
     margin-left: 10%;
     width: 470px;
@@ -424,18 +442,21 @@ button {
 }
 
 /* ##################### */
-.save-more{
+.save-more {
     display: flex;
     margin-left: 135px;
     margin-top: 130px;
 }
+
 .name-section-four {
     font-size: 60px;
 }
-.section-four-information-right{
+
+.section-four-information-right {
     margin-right: 130px;
     margin-top: 80px;
 }
+
 .button {
     background: #7557ff;
     border: none;
@@ -456,9 +477,11 @@ button {
     justify-content: center;
     align-items: center;
 }
-.imgs img{
+
+.imgs img {
     width: 470px;
 }
+
 .what-they-say {
     display: flex;
     margin-top: 160px;
@@ -478,11 +501,15 @@ button {
     margin-left: 20px;
     margin-top: 20px
 }
-.user-des p{
-    padding: 20px 30px 30px 30px ;
+
+.user-des p {
+    padding: 20px 30px 30px 30px;
 }
+
 .section-five-user-one {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .name-job {
@@ -548,7 +575,8 @@ body {
     display: flex;
     flex-direction: column;
 }
-.subscribe{
+
+.subscribe {
     margin: 160px 135px;
 }
 
@@ -581,10 +609,12 @@ body {
     text-align: start;
 
 }
-.contact{
+
+.contact {
     display: flex;
     margin-left: 135px;
 }
+
 .new-letter__subscript form {
     column-gap: 10px;
 }
@@ -726,6 +756,7 @@ body {
     height: 500px;
     position: relative;
 }
+
 .footer__nav-bottom {
     position: relative;
     top: 300px;
@@ -799,4 +830,5 @@ body {
     font-weight: 400;
     line-height: 28px;
 }
+
 /* __End___ Contact footer ____THI _________________ */
