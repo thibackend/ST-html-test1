@@ -1,0 +1,245 @@
+:root {
+    --tim-color: #7557FF;
+    --nau-color: #FFFBEF;
+    --white-color: #FFFFFF;
+    --black-color: #121116;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin: 62px 0 62px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.new-letter {
+    width: 100%;
+    background-color: var(--tim-color);
+    height: 338px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 36px;
+}
+
+.new-letter__subscript {
+    width: 50%;
+    padding: 32px;
+    row-gap: 30px;
+}
+
+
+
+.subscript-text {
+    width: 80%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: start;
+
+}
+
+.new-letter__subscript form {
+    column-gap: 10px;
+}
+
+
+.email-input {
+    background: #7E63FF;
+    width: 50%;
+    height: 60px;
+    border-radius: 6px;
+    color: var(--white-color);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.email-input::placeholder {
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.submit-subscript {
+    border: none;
+    border-radius: 6px;
+    width: 25%;
+    padding: 10px;
+    color: #7557FF;
+    background-color: var(--white-color);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+
+
+.new-letter__image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    justify-content: flex-start;
+}
+
+.contact__title {
+    margin-right: 62px;
+    width: 470px;
+}
+
+.get-in-touch-text {
+    color: #121116;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.question-text {
+    color: #605D6C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contact__form {
+    z-index: 1;
+    margin-left: 62px;
+    width: 570px;
+    height: 430px;
+    padding: 40px;
+    background-color: var(--white-color);
+    border-radius: 12px;
+    box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+
+}
+
+.contact__form-input {
+    width: 85%;
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    text-align: start;
+    color: #605D6C;
+    color: #605D6C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contact__form-input::placeholder {
+    color: #605D6C;
+}
+
+.contact__form-input:focus-visible {
+    outline: none;
+}
+
+.contact__form .message {
+    padding-bottom: 30px;
+}
+
+.send-button {
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #7557FF;
+    width: 20%;
+    color: var(--white-color);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.footer {
+    margin-top: -192px;
+    background: #FFFBEF;
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+
+.footer__nav-bottom {
+    position: relative;
+    top: 300px;
+    width: 100%;
+}
+
+.nav-bottom {
+    justify-content: space-between;
+    padding: 16px 0 0 0;
+    border-bottom: 2px solid var(--black-color);
+    z-index: 1;
+}
+.logo-bottom {
+    line-height: 0.5;}
+
+.nav-title li {
+    color: #7557FF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #605D6C;
+    list-style: none;
+    padding:  20px 20px;
+    border-bottom:3px solid #7557FF;
+    margin-bottom: -1.9px;
+}
+.footer__nav-bottom .logo-nav {
+    width: 100%;
+    border-bottom: 2px solid var(--black-color);
+}
+
+.copyright {
+    justify-content: space-between;
+}
